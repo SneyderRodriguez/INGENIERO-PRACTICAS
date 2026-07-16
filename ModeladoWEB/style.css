@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background-color: #06162b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+#cuadro {
+  background-color: #0b2a4a;
+  border-radius: 16px;
+  /* padding: 20px; */
+  max-width: 250px;
+  width: 50%;
+  color: #eee;
+  box-shadow: 0 20px 60px rgba(63, 54, 156, 0.719);
+}
+h1 {
+  font-family: 'AdwaitaMono Nerd Font', AdwaitaMono Nerd Font, sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #e8c39e;
+}
+#score p {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+#btnIncremento {
+  margin-top: 24px;
+  /* width: 20%; */
+  padding: 14px;
+  background: linear-gradient(135deg, #1d4d7a, #8fb3c7);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#btnDecremento {
+  margin-top: 24px;
+  float: right;
+  /* width: 20%; */
+  padding: 14px;
+  background: linear-gradient(135deg, #1d4d7a, #8fb3c7);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#puntaje {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+.color-normal{
+  color: #f2e9d8;
+}
+.color-limite{
+  color: #2a9d8f;
+}
